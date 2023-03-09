@@ -1,0 +1,23 @@
+{
+    "questions":[
+        {"num":1,"text":"Bonjour, je suis l'agent de présentation du module. Comme vous le voyez, je peux dire des phrases longues."},
+        {"num":2,"text":"Je vous invite à choisir une réponse parmi les différentes possibilités ci-dessous."},
+        {"num":3,"text":"Au revoir et à bientôt !"}
+    ],
+
+    "answers":[
+        {"num":1,"text":"D'accord"},
+        {"num":2,"text":"Oui"},
+        {"num":3,"text":"Non"},
+        {"num":4,"text":"Je ne sais pas"},
+        {"num":5,"text":"Bonjour"},
+        {"num":6,"text":"Allo ?"},
+        {"num":7,"text":"Salut!"}
+    ],
+
+    "autoanswers":[
+        {"q":1,"a":[5,6,7]},
+        {"q":2,"a":[1,2,3,4]},
+        {"q":3,"a":[1]}
+    ]
+}

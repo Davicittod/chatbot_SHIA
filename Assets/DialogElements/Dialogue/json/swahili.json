@@ -1,0 +1,48 @@
+{
+    "questions":[
+        {"num":1,"text":"Bonjour, je suis votre nouveau professeur de Swahili."},
+        {"num":2,"text":"Attendez ! J'ai une question importante à vous poser. Comment vous sentez-vous ?"},
+        {"num":3,"text":"Est-ce que c'est lié à l'activité que nous faisons ensemble ?"},
+        {"num":4,"text":"Que voulez-vous faire maintenant ?"},
+        {"num":5,"text":"Voulez-vous vraiment arrêter ?"},
+        {"num":6,"text":"Bravo !"},
+        {"num":7,"text":"Eh non, ce n'est pas ça !"},
+        {"num":8,"text":"Au revoir et à bientôt !"},
+        {"num":11,"text":"\"Bonjour\" se dit \"jambo\"."},
+        {"num":12,"text":"\"Merci\" se dit \"asante\"."},
+        {"num":13,"text":"\"Excusez-moi\" se dit \"samahani\"."},
+        {"num":14,"text":"\"Je ne comprends pas\" se dit \"sielewi\"."},
+        {"num":15,"text":"\"Parlez-vous francais\" se dit \"unasema faransa\"."},
+        {"num":16,"text":"\"Oui\" se dit \"ndiyo\"."},
+        {"num":17,"text":"\"Non\" se dit \"hapana\"."},
+        {"num":18,"text":"Désolé, je n'ai plus rien à vous apprendre."},
+        {"num":21,"text":"Comment dit-on \"Bonjour\" ?"},
+        {"num":22,"text":"Comment dit-on \"Merci\" ?"},
+        {"num":23,"text":"Comment dit-on \"Excusez-moi\" ?"},
+        {"num":24,"text":"Comment dit-on \"Je ne comprends pas\" ?"},
+        {"num":25,"text":"Comment dit-on \"Parlez-vous francais\" ?"},
+        {"num":26,"text":"Comment dit-on \"Oui\" ?"},
+        {"num":27,"text":"Comment dit-on \"Non\" ?"}
+    ],
+        
+    "answers":[
+        {"num":1,"text":"Continuer"},
+        {"num":2,"text":"Oui"},
+        {"num":3,"text":"Non"},
+        {"num":21,"text":":-)"},
+        {"num":22,"text":":-/"},
+        {"num":23,"text":":-("},
+        {"num":41,"text":"Apprendre un nouveau mot."},
+        {"num":42,"text":"Interroge-moi !"},
+        {"num":43,"text":"J'en ai assez, on arrete."},
+        {"num":51,"text":"jambo"},
+        {"num":52,"text":"asante"},
+        {"num":53,"text":"samahani"},
+        {"num":54,"text":"sielewi"},
+        {"num":55,"text":"unasema faransa"},
+        {"num":56,"text":"ndiyo"},
+        {"num":57,"text":"hapana"},
+        {"num":58,"text":"Je ne sais pas."}
+    ]
+}
+
