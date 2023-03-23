@@ -1,30 +1,60 @@
 {
-    "questions":[
-        {"num":1, "text":"Hello, I'm the spanish teacher. We're going to learn some spanish today!"},
-        {"num":2, "text":"Por supuesto. Me voy a ir yendo ya entonces. ¡Hasta pronto!"},
-        {"num":3, "text":"What do you want to learn today? ¿Qué quieres aprender hoy?"},
-        {"num":4, "text":"Respuesta incorrecta :("},
-        {"num":5, "text":"¡Respuesta correcta!"},
+  "questions": [
+    {
+      "num": -1,
+      "text": "Por supuesto. Me voy a ir yendo ya entonces. ¡Hasta pronto!"
+    },
+    {
+      "num": 1,
+      "text": "Hello, I'm the spanish teacher. We're going to learn some spanish today!"
+    },
+    {
+      "num": 2,
+      "text": "¿Tu lengua materna es el español?"
+    },
+    {
+      "num": 3,
+      "text": "What do you want to learn today? ¿Qué quieres aprender hoy?"
+    },
+    { "num": 4, "text": "Respuesta incorrecta :(" },
+    { "num": 5, "text": "¡Respuesta correcta!" },
 
-        {"num":7, "text":"The proverb \"Estas hecho un roble\" literally means \"You're like an oak\". \nIt is used to tell somebody that he is really healthy"},
-        {"num":8, "text":"When something is really easy we say \"Es pan comido\""},
-        {"num":9, "text":"When somebody goes reeeeally slowly we tell him \"¡Vas como una tortuga!\""},
+    {
+      "num": 7,
+      "text": "The proverb \"Estas hecho un roble\" literally means \"You're like an oak\". \nIt is used to tell somebody that he is really healthy"
+    },
+    {
+      "num": 8,
+      "text": "When something is really easy we say \"Es pan comido\""
+    },
+    {
+      "num": 9,
+      "text": "When somebody goes reeeeally slowly we tell him \"¡Vas como una tortuga!\""
+    },
+    {
+      "num": 20,
+      "text": "¿En que pais dicen \"laburo\" para referirse al trabajo?"
+    },
+    {
+      "num": 21,
+      "text": "¿De qué país es original la paella?"
+    }
+  ],
 
-        {"num":10, "text":"¿En que pais dicen \"laburo\" para referirse al trabajo?"}
-    ],
+  "answers": [
+    { "num": -1, "text": "It was a pleasure! Digo... ¡Ha sido un placer!" },
+    { "num": 1, "text": "Nice to meet you! I'm eager to learn" },
+    { "num": 2, "text": "¡Si!" },
+    { "num": 3, "text": "No :(" },
+    { "num": 4, "text": "Continuar" },
+    { "num": 5, "text": "Quiero hacer un QUIZ" },
+    { "num": 6, "text": "Enséñame una expresion en español" },
+    { "num": 7, "text": "Me he cansado de aprender, ¿podemos parar ya?" },
+    { "num": 8, "text": "¡Qué interesante!" },
+    { "num": 9, "text": "¡Cuéntame mas!" },
 
-    "answers":[
-        {"num":1, "text":"Nice to meet you! I'm eager to learn"},
-        {"num":2, "text":"It was a pleasure! Digo... ¡Ha sido un placer!"},
-        {"num":3, "text":"Continuar"},
-        {"num":4, "text":"Quiero hacer un QUIZ"},
-        {"num":5, "text":"Enséñame una expresion en español"},
-        {"num":6, "text":"Me he cansado de aprender, ¿podemos parar ya?"},
-        {"num":7, "text":"¡Qué interesante!"},
-        {"num":8, "text":"¡Cuéntame mas!"},
-
-        {"num":9, "text":"Argentina"},
-        {"num":10, "text":"España"},
-        {"num":11, "text":"México"}
-    ]
+    { "num": 20, "text": "Argentina" },
+    { "num": 21, "text": "España" },
+    { "num": 22, "text": "México" }
+  ]
 }
