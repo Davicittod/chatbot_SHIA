@@ -151,6 +151,7 @@ class TeacherBot : Chatbot
                 return .7;
         }
 
+        //If we ask a question
         if (lastQuestion >= 20) {
             if(checkAnswer(lastQuestion, lastAnswer)) 
                 return .9;
