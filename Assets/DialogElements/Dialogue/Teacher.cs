@@ -127,19 +127,6 @@ class TeacherBot : Chatbot
     private bool checkAnswer(int q, int a) {
         return q == a ;
     }
-
-    /*
-    public override void triggerAffectiveReaction(int lastQuestion, int lastAnswer) {
-        if (lastQuestion == 10) {
-            if (checkAnswer(lastQuestion, lastAnswer)) {
-                playAnimation(new int[]{6,12}, new int[]{100,100}, .5f);
-            } else {
-                playAnimation(new int[]{1,4,15}, new int[]{100,100,100}, .5f);
-            }
-        }
-    }
-    */
-
     
     private double getGoal(int lastQuestion, int lastAnswer) {
         //If we are leaving
