@@ -31,13 +31,182 @@
       "num": 9,
       "text": "When somebody goes reeeeally slowly we tell him \"¡Vas como una tortuga!\""
     },
+    { "num": 21, "text": "What is the Spanish word for 'cat' ?" },
     {
-      "num": 20,
-      "text": "¿En que pais dicen \"laburo\" para referirse al trabajo?"
+      "num": 22,
+      "text": "No, that's incorrect. The word for 'cat' in Spanish is 'Gato'. Remember that 'Perro' means 'dog' and 'Pajaro' means 'bird'."
     },
     {
-      "num": 21,
-      "text": "¿De qué país es original la paella?"
+      "num": 23,
+      "text": "Good !The word for 'cat' in Spanish is 'Gato'. Remember that 'Perro' means 'dog' and 'Pajaro' means 'bird'."
+    },
+    { "num": 24, "text": "How do you say 'red' in Spanish ?" },
+    {
+      "num": 25,
+      "text": "No, that's incorrect. The word for 'red' in Spanish is 'Rojo'. Remember that 'Azul' means 'blue' and 'Verde' means 'green'."
+    },
+    {
+      "num": 26,
+      "text": "Great job !The word for 'red' in Spanish is 'Rojo'. Remember that 'Azul' means 'blue' and 'Verde' means 'green'."
+    },
+    { "num": 27, "text": "What is the Spanish word for 'hello' ?" },
+    {
+      "num": 28,
+      "text": "No, that's incorrect. The word for 'hello' in Spanish is 'Hola'. Remember that 'Adios' means 'goodbye' and 'Gracias' means 'thank you'."
+    },
+    {
+      "num": 29,
+      "text": "Excellent !The word for 'hello' in Spanish is 'Hola'. Remember that 'Adios' means 'goodbye' and 'Gracias' means 'thank you'."
+    },
+    { "num": 30, "text": "How do you say 'one' in Spanish ?" },
+    {
+      "num": 31,
+      "text": "No, that's incorrect. The word for 'one' in Spanish is 'Uno'. Remember that 'Dos' means 'two' and 'Tres' means 'three'."
+    },
+    {
+      "num": 32,
+      "text": "You're doing great ! The word for 'one' in Spanish is 'Uno'. Remember that 'Dos' means 'two' and 'Tres' means 'three'."
+    },
+    { "num": 33, "text": "What is the Spanish word for 'book'?" },
+    {
+      "num": 34,
+      "text": "No, that's incorrect. The word for 'book' in Spanish is 'Libro'. Remember that 'Periódico' means 'newspaper' and 'Revista' means 'magazine'."
+    },
+    { "num": 35, "text": "Good job!" },
+    { "num": 36, "text": "How do you say 'beach' in Spanish?" },
+    {
+      "num": 37,
+      "text": "Oops, that's not correct. 'Beach' in Spanish is 'Playa'. 'Piscina' means 'swimming pool' and 'Río' means 'river'."
+    },
+    { "num": 38, "text": "Well done!" },
+    { "num": 39, "text": "What is the Spanish word for 'hat' ?" },
+    {
+      "num": 40,
+      "text": "No, that's not it. The correct Spanish word for 'hat' is 'Sombrero'. 'Gorra' means 'cap' and 'Cachucha' means 'baseball cap'."
+    },
+    { "num": 41, "text": "Great job!" },
+    { "num": 42, "text": "How do you say 'hamburger' in Spanish?" },
+    {
+      "num": 43,
+      "text": "Sorry, that's not the right answer. 'Hamburger' in Spanish is 'Hamburguesa'. 'Hot Dog' is 'Perro caliente' and 'Pizza' is 'Pizza' in Spanish."
+    },
+    { "num": 44, "text": "You got it!" },
+    { "num": 45, "text": "What is the Spanish word for 'shoe' ?" },
+    {
+      "num": 46,
+      "text": "No, that's not the right word. The Spanish word for 'shoe' is 'Zapato'. 'Calcetín' means 'sock' and 'Sandalias' means 'sandals'."
+    },
+    { "num": 47, "text": "Excellent!" },
+    { "num": 48, "text": "How do you say 'apple' in Spanish?" },
+    {
+      "num": 49,
+      "text": "Sorry, that's not the right answer. 'Apple' in Spanish is 'Manzana'. 'Banana' is 'Plátano' and 'Orange' is 'Naranja' in Spanish."
+    },
+    {
+      "num": 50,
+      "text": "Great! 'Apple' in Spanish is 'Manzana'. 'Banana' is 'Plátano' and 'Orange' is 'Naranja' in Spanish."
+    },
+    { "num": 51, "text": "What is the Spanish word for 'bicycle' ?" },
+    {
+      "num": 52,
+      "text": "No, that's not the right word. The Spanish word for 'bicycle' is 'Bicicleta'. 'Car' is 'Coche' and 'Motorcycle' is 'Motocicleta' in Spanish."
+    },
+    {
+      "num": 53,
+      "text": "Awesome! The Spanish word for 'bicycle' is 'Bicicleta'. 'Car' is 'Coche' and 'Motorcycle' is 'Motocicleta' in Spanish."
+    },
+    { "num": 54, "text": "How do you say 'umbrella' in Spanish?" },
+    {
+      "num": 55,
+      "text": "Sorry, that's not the right answer. 'Umbrella' in Spanish is 'Paraguas'. 'Raincoat' is 'Impermeable' and 'Jacket' is 'Chaqueta' in Spanish."
+    },
+    {
+      "num": 56,
+      "text": "Brilliant! 'Umbrella' in Spanish is 'Paraguas'. 'Raincoat' is 'Impermeable' and 'Jacket' is 'Chaqueta' in Spanish."
+    },
+    { "num": 57, "text": "What is the Spanish word for 'guitar' ?" },
+    {
+      "num": 58,
+      "text": "No, that's not the right word. The Spanish word for 'guitar' is 'Guitarra'. 'Piano' is 'Piano' and 'Violin' is 'Violín' in Spanish."
+    },
+    {
+      "num": 59,
+      "text": "Superb! The Spanish word for 'guitar' is 'Guitarra'. 'Piano' is 'Piano' and 'Violin' is 'Violín' in Spanish."
+    },
+    { "num": 60, "text": "How do you say 'table' in Spanish?" },
+    {
+      "num": 61,
+      "text": "Sorry, that's not the right answer. 'Table' in Spanish is 'Mesa'. 'Chair' is 'Silla' and 'Sofa' is 'Sofá' in Spanish."
+    },
+    {
+      "num": 62,
+      "text": "Impressive! 'Table' in Spanish is 'Mesa'. 'Chair' is 'Silla' and 'Sofa' is 'Sofá' in Spanish."
+    },
+    { "num": 63, "text": "How do you say 'glasses' in Spanish?" },
+    {
+      "num": 64,
+      "text": "No, that's not the right word. In Spanish, 'glasses' is 'gafas'. 'Lentes' means 'lenses' and 'anteojos' means 'eyeglasses' in some countries."
+    },
+    {
+      "num": 65,
+      "text": "Well done! In Spanish, 'glasses' is 'gafas'. 'Lentes' means 'lenses' and 'anteojos' means 'eyeglasses' in some countries."
+    },
+    { "num": 66, "text": "How do you say 'shirt' in Spanish?" },
+    {
+      "num": 67,
+      "text": "No, that's not the right word. The Spanish word for 'shirt' is 'Camisa'. 'Pantalones' means 'pants' and 'Abrigo' means 'coat'."
+    },
+    {
+      "num": 68,
+      "text": "Muy bien! The Spanish word for 'shirt' is 'Camisa'. 'Pantalones' means 'pants' and 'Abrigo' means 'coat'."
+    },
+    { "num": 69, "text": "How do you say 'computer' in Spanish?" },
+    {
+      "num": 70,
+      "text": "No, that's not the right answer. 'Computer' in Spanish is 'Computadora'. 'Telefono' means 'telephone' and 'Tableta' means 'tablet' in Spanish."
+    },
+    {
+      "num": 71,
+      "text": "Well done! 'Computer' in Spanish is 'Computadora'. 'Telefono' means 'telephone' and 'Tableta' means 'tablet' in Spanish."
+    },
+    {
+      "num": 72,
+      "text": "What is the Spanish word for 'mouse' in the context of a computer?"
+    },
+    {
+      "num": 73,
+      "text": "Sorry, that's not correct. The word for 'mouse' in the context of a computer is 'ratón'. 'Gato' means 'cat' and 'Perro' means 'dog' in Spanish."
+    },
+    {
+      "num": 74,
+      "text": "Great job! The word for 'mouse' in the context of a computer is 'ratón'. 'Gato' means 'cat' and 'Perro' means 'dog' in Spanish."
+    },
+    { "num": 75, "text": "How do you say 'keyboard' in Spanish?" },
+    {
+      "num": 76,
+      "text": "No, that's not right. The Spanish word for 'keyboard' is 'Teclado'. 'Raton' means 'mouse' and 'Pantalla' means 'screen' in Spanish."
+    },
+    {
+      "num": 77,
+      "text": "Excellent! The Spanish word for 'keyboard' is 'Teclado'. 'Raton' means 'mouse' and 'Pantalla' means 'screen' in Spanish."
+    },
+    { "num": 78, "text": "What is the Spanish word for 'building'?" },
+    {
+      "num": 79,
+      "text": "No, that's not the right answer. The Spanish word for 'building' is 'Edificio'. 'Casa' means 'house' and 'Apartamento' means 'apartment' in Spanish."
+    },
+    {
+      "num": 80,
+      "text": "Great job! The Spanish word for 'building' is 'Edificio'. 'Casa' means 'house' and 'Apartamento' means 'apartment' in Spanish."
+    },
+    { "num": 81, "text": "How do you say 'window' in Spanish?" },
+    {
+      "num": 82,
+      "text": "Sorry, that's not correct. 'Window' in Spanish is 'Ventana'. 'Puerta' means 'door' and 'Muro' means 'wall'."
+    },
+    {
+      "num": 83,
+      "text": "Excellent! 'Window' in Spanish is 'Ventana'. 'Puerta' means 'door' and 'Muro' means 'wall'."
     }
   ],
 
@@ -53,8 +222,68 @@
     { "num": 8, "text": "¡Qué interesante!" },
     { "num": 9, "text": "¡Cuéntame mas!" },
 
-    { "num": 20, "text": "Argentina" },
-    { "num": 21, "text": "España" },
-    { "num": 22, "text": "México" }
+    { "num": 21, "text": "Gato" },
+    { "num": 22, "text": "Perro" },
+    { "num": 23, "text": "Pajaro" },
+    { "num": 24, "text": "Rojo" },
+    { "num": 25, "text": "Azul" },
+    { "num": 26, "text": "Verde" },
+    { "num": 27, "text": "Hola" },
+    { "num": 28, "text": "Adios" },
+    { "num": 29, "text": "Gracias" },
+    { "num": 30, "text": "Uno" },
+    { "num": 31, "text": "Dos" },
+    { "num": 32, "text": "Tres" },
+    { "num": 33, "text": "Libro" },
+    { "num": 34, "text": "Periódico" },
+    { "num": 35, "text": "Revista" },
+    { "num": 36, "text": "Playa" },
+    { "num": 37, "text": "Piscina" },
+    { "num": 38, "text": "Río" },
+    { "num": 39, "text": "Sombrero" },
+    { "num": 40, "text": "Gorra" },
+    { "num": 41, "text": "Cachucha" },
+    { "num": 42, "text": "Hamburguesa" },
+    { "num": 43, "text": "Perro caliente" },
+    { "num": 44, "text": "Pizza" },
+    { "num": 45, "text": "Zapato" },
+    { "num": 46, "text": "Calcetín" },
+    { "num": 47, "text": "Sandalias" },
+    { "num": 48, "text": "Manzana" },
+    { "num": 49, "text": "Plátano" },
+    { "num": 50, "text": "Naranja" },
+    { "num": 51, "text": "Bicicleta" },
+    { "num": 52, "text": "Coche" },
+    { "num": 54, "text": "Motocicleta" },
+    { "num": 54, "text": "Paraguas" },
+    { "num": 55, "text": "Impermeable" },
+    { "num": 56, "text": "Chaqueta" },
+    { "num": 57, "text": "Guitarra" },
+    { "num": 58, "text": "Piano" },
+    { "num": 59, "text": "Violín" },
+    { "num": 60, "text": "Mesa" },
+    { "num": 61, "text": "Silla" },
+    { "num": 62, "text": "Sofá" },
+    { "num": 63, "text": "Gafas" },
+    { "num": 64, "text": "Lentes" },
+    { "num": 65, "text": "Anteojos" },
+    { "num": 66, "text": "Camisa" },
+    { "num": 67, "text": "Pantalones" },
+    { "num": 68, "text": "Abrigo" },
+    { "num": 69, "text": "Computadora" },
+    { "num": 70, "text": "Telefono" },
+    { "num": 71, "text": "Tableta" },
+    { "num": 72, "text": "Ratón" },
+    { "num": 73, "text": "Gato" },
+    { "num": 74, "text": "Perro" },
+    { "num": 75, "text": "Teclado" },
+    { "num": 76, "text": "Raton" },
+    { "num": 77, "text": "Pantalla" },
+    { "num": 78, "text": "Edificio" },
+    { "num": 79, "text": "Casa" },
+    { "num": 80, "text": "Apartamento" },
+    { "num": 81, "text": "Ventana" },
+    { "num": 82, "text": "Puerta" },
+    { "num": 83, "text": "Muro" }
   ]
 }

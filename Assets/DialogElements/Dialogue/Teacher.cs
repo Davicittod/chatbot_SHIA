@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 using UnityEngine;
 
@@ -8,7 +9,7 @@ class TeacherBot : Chatbot
     public static System.Random rand = new System.Random();
 
     private const int NUM_CURIOSITIES = 3;
-    private const int NUM_QUESTIONS = 2;
+    private const int NUM_QUESTIONS = 21;
 
     private int state = 0;
     private bool isNativeSpeaker = false;
@@ -16,7 +17,10 @@ class TeacherBot : Chatbot
     public int nextCuriosity = 0;
     public int nextQuestion = 0;
 
+    public List<bool> score = new List<bool>();
+
     private bool bravo = false;
+    private int lastQuestionAsked = 0;
 
     /*
     States of the chatbot:
@@ -27,6 +31,7 @@ class TeacherBot : Chatbot
     3: Tells you some curiosity
     4: Ask you a question
     5: Continue window
+    6: Short/long answer
     */
 
     // Finds out which question we have to ask, depending on the state we are
@@ -46,15 +51,29 @@ class TeacherBot : Chatbot
                 nextCuriosity ++;
                 return 7 + nextCuriosity%NUM_CURIOSITIES;
             case 4:
+                int answer = 21 + 3*(nextQuestion%NUM_QUESTIONS);
                 nextQuestion ++;
-                return 20 + nextQuestion%NUM_QUESTIONS;
+                return answer;
             case 5:
-                if (bravo) return 5;
-                else return 4; 
+                return verifyLastQuestionAsked();
             default:
                 return 2; 
         }
     }  
+
+    private int verifyLastQuestionAsked() {
+        int isLong = lastQuestionAsked%2;
+        score.Add(bravo);
+        int sum = score.Count(b => b == true);
+        Debug.Log(sum);
+        if (bravo) {
+            if (isLong == 1) return lastQuestionAsked + 2;
+            else return 5;
+        } else {
+            if (isLong == 1) return lastQuestionAsked + 1;
+            else return 4;
+        }
+    }
 
     //Choose the answers after the question is posed
     public override int[] getPossibleAnswers(int question) {
@@ -66,7 +85,6 @@ class TeacherBot : Chatbot
                 return new int[] { 1 };
             case 2:
                 return new int[] { 2, 3 };
-            
             case 3: //activity selector
                 return new int[] { 5, 6, 7 };
             case 4: 
@@ -76,12 +94,20 @@ class TeacherBot : Chatbot
             case 8:
             case 9:
                 return new int[] { 8, 9 };
-            case 20: //quiz
-            case 21:
-                return new int[] { 20, 21, 22 };
+            //Quiz
             default:
-                return new int[] { 1 };
+                return questionsQuiz(question);
         }
+    }
+
+    private int[] questionsQuiz(int question) {
+        if (question%3 != 0) return new int[] { 4 };
+        List<int> nums = new List<int> { 0, 1, 2 };
+        nums = nums.OrderBy(x => rand.Next()).ToList(); 
+        int num1 = nums[0];
+        int num2 = nums[1];
+        int num3 = nums[2];
+        return new int[] { question + num1, question + num2, question + num3 };
     }
 
     // We modify the state after the answer we chose
@@ -105,6 +131,7 @@ class TeacherBot : Chatbot
         //If we answered the quiz we find out i we have to congratulate or encourage to the next time                
         else if (state == 4) {
             bravo = checkAnswer(lastQuestion, lastAnswer);
+            lastQuestionAsked = lastQuestion;
             state = 5;
         //From the selector we go to another activity depending on the answer we chose
         } else if (state == 2) {
@@ -126,6 +153,11 @@ class TeacherBot : Chatbot
 
     private bool checkAnswer(int q, int a) {
         return q == a ;
+    }
+
+    private int chooselastQuestionAsked(int q, int a) {
+        int is_long_answer = rand.Next()%2;
+        return q + 1 + is_long_answer;
     }
     
     private double getGoal(int lastQuestion, int lastAnswer) {
