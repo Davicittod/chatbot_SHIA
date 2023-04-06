@@ -90,7 +90,25 @@
     {"num": 79, "text": "No, that's incorrect. The word for 'while' in Spanish is 'Rato'. Remember that 'Tiempo' means 'time' and 'Momento' means 'moment'."},
     {"num": 80, "text": "Excellent! The word for 'while' in Spanish is 'Rato'. Remember that 'Tiempo' means 'time' and 'Momento' means 'moment'."},
 
+    {"num": 81, "text": "What is the Spanish word for 'room' ?"},
+    {"num": 82, "text": "No, that's incorrect. The word for 'room' in Spanish is 'Habitación'. Remember that 'Cocina' means 'kitchen' and 'Baño' means 'bathroom'."},
+    {"num": 83, "text": "Great! The word for 'room' in Spanish is 'Habitación'. Remember that 'Cocina' means 'kitchen' and 'Baño' means 'bathroom'."},
 
+    {"num": 84, "text": "What is the Spanish word for 'pillow'?" },
+    {"num": 85, "text": "No, that's incorrect. The word for 'pillow' in Spanish is 'Almohada'. Remember that 'Manta' means 'blanket' and 'Cama' means 'bed'."},
+    {"num": 86, "text": "Excellent! The word for 'pillow' in Spanish is 'Almohada'. Remember that 'Manta' means 'blanket' and 'Cama' means 'bed'."},
+
+    {"num": 87, "text": "What is the Spanish word for 'carpet'?" },
+    {"num": 88, "text": "No, that's incorrect. The word for 'carpet' in Spanish is 'Alfombra'. Remember that 'Piso' means 'floor' and 'Pared' means 'wall'."},
+    {"num": 89, "text": "Correct! The word for 'carpet' in Spanish is 'Alfombra'. Remember that 'Piso' means 'floor' and 'Pared' means 'wall'."},
+
+    {"num": 90, "text": "What is the Spanish word for 'back'?" },
+    {"num": 91, "text": "No, that's incorrect. The word for 'back' in Spanish is 'Espalda'. Remember that 'Pecho' means 'chest' and 'Brazo' means 'arm'."},
+    {"num": 92, "text": "Excellent! The word for 'back' in Spanish is 'Espalda'. Remember that 'Pecho' means 'chest' and 'Brazo' means 'arm'."},
+
+    {"num": 93, "text": "What is the Spanish verb for 'to send'?" },
+    {"num": 94, "text": "No, that's incorrect. The verb for 'to send' in Spanish is 'Mandar'. Remember that 'Comer' means 'to eat' and 'Beber' means 'to drink'."},
+    {"num": 95, "text": "Correct! The verb for 'to send' in Spanish is 'Mandar'. Remember that 'Comer' means 'to eat' and 'Beber' means 'to drink'."}
 
   ],
 
@@ -186,7 +204,25 @@
     {"num": 79, "text": "Tiempo"},
     {"num": 80, "text": "Momento"},
 
-    
+    {"num": 81, "text": "Habitación"},
+    {"num": 82, "text": "Cocina"},
+    {"num": 83, "text": "Baño"},
+
+    {"num": 84, "text": "Almohada"},
+    {"num": 85, "text": "Manta"},
+    {"num": 86, "text": "Cama"},
+
+    {"num": 87, "text": "Alfombra"},
+    {"num": 88, "text": "Piso"},
+    {"num": 89, "text": "Pared"},
+
+    {"num": 90, "text": "Espalda"},
+    {"num": 91, "text": "Pecho"},
+    {"num": 92, "text": "Brazo"},
+
+    {"num": 93, "text": "Mandar"},
+    {"num": 94, "text": "Comer"},
+    {"num": 95, "text": "Beber"}
 
   ]
 }
