@@ -29,7 +29,6 @@
     },
 
     { "num": 21, "text": "What is the Spanish word for 'pan'?" },
-<<<<<<< HEAD
     { "num": 22, "text": "" },
     { "num": 23, "text": "" },
 
@@ -48,56 +47,6 @@
     { "num": 33, "text": "What is the Spanish word for 'screen'?" },
     { "num": 34, "text": "" },
     { "num": 35, "text": "" },
-=======
-    {
-      "num": 22,
-      "text": "No, that's incorrect. The word for 'pan' in Spanish is 'Sartén'. Remember that 'Olla' means 'pot' and 'Cacerola' means 'casserole'."
-    },
-    {
-      "num": 23,
-      "text": "Excellent! The word for 'pan' in Spanish is 'Sartén'. Remember that 'Olla' means 'pot' and 'Cacerola' means 'casserole'."
-    },
-
-    { "num": 24, "text": "What is the Spanish word for 'budget'?" },
-    {
-      "num": 25,
-      "text": "No, that's incorrect. The word for 'budget' in Spanish is 'Presupuesto'. Remember that 'Dinero' means 'money' and 'Comida' means 'food'."
-    },
-    {
-      "num": 26,
-      "text": "Well done! The word for 'budget' in Spanish is 'Presupuesto'. Remember that 'Dinero' means 'money' and 'Comida' means 'food'."
-    },
-
-    { "num": 27, "text": "What is the Spanish word for 'interview'?" },
-    {
-      "num": 28,
-      "text": "No, that's incorrect. The word for 'interview' in Spanish is 'Entrevista'. Remember that 'Investigación' means 'research' and 'Encuesta' means 'survey'."
-    },
-    {
-      "num": 29,
-      "text": "Great! The word for 'interview' in Spanish is 'Entrevista'. Remember that 'Investigación' means 'research' and 'Encuesta' means 'survey'."
-    },
-
-    { "num": 30, "text": "What is the Spanish word for 'retirement'?" },
-    {
-      "num": 31,
-      "text": "No, that's incorrect. The word for 'retirement' in Spanish is 'Jubilacion'. Remember that 'Vacaciones' means 'vacation' and 'Descanso' means 'rest'."
-    },
-    {
-      "num": 32,
-      "text": "Excellent! The word for 'retirement' in Spanish is 'Jubilacion'. Remember that 'Vacaciones' means 'vacation' and 'Descanso' means 'rest'."
-    },
-
-    { "num": 33, "text": "What is the Spanish word for 'screen'?" },
-    {
-      "num": 34,
-      "text": "No, that's incorrect. The word for 'screen' in Spanish is 'Pantalla'. Remember that 'Teclado' means 'keyboard' and 'Raton' means 'mouse'."
-    },
-    {
-      "num": 35,
-      "text": "Awesome! The word for 'screen' in Spanish is 'Pantalla'. Remember that 'Teclado' means 'keyboard' and 'Raton' means 'mouse'."
-    },
->>>>>>> e41a2caee2daf3367ecdca15f6c670e6c6203d6c
 
     { "num": 36, "text": "What is the Spanish word for 'pen'?" },
     {
@@ -106,13 +55,8 @@
     },
     {
       "num": 38,
-<<<<<<< HEAD
       "text": ""
     },   
-=======
-      "text": "Great! The word for 'pen' in Spanish is 'Bolígrafo'. Remember that 'Lápiz' means 'pencil' and 'Pluma' means 'feather'."
-    },
->>>>>>> e41a2caee2daf3367ecdca15f6c670e6c6203d6c
 
     { "num": 39, "text": "What is the Spanish word for 'stuffy nose'?" },
     {
@@ -131,13 +75,8 @@
     },
     {
       "num": 44,
-<<<<<<< HEAD
       "text": ""
     },    
-=======
-      "text": "Excellent! The word for 'while' in Spanish is 'Rato'. Remember that 'Tiempo' means 'time' and 'Momento' means 'moment'."
-    },
->>>>>>> e41a2caee2daf3367ecdca15f6c670e6c6203d6c
 
     { "num": 45, "text": "What is the Spanish word for 'back'?" },
     {
