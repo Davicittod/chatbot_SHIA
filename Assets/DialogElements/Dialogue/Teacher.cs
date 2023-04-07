@@ -64,8 +64,6 @@ class TeacherBot : Chatbot
     private int verifyLastQuestionAsked() {
         int isLong = lastQuestionAsked%2;
         score.Add(bravo);
-        int sum = score.Count(b => b == true);
-        Debug.Log(sum);
         if (bravo) {
             if (isLong == 1) return lastQuestionAsked + 2;
             else return 5;
@@ -147,7 +145,16 @@ class TeacherBot : Chatbot
         //We just congratulated/encouraged the person, we are coming back to the selector
         } else if (state == 5) {
             bravo = false;
-            state = 2;
+            if (nextQuestion < (NUM_QUESTIONS))
+                state = 4;
+            else {
+                int total_score = score.Count(b => b == true);
+                Debug.Log("Total score: " + total_score.ToString());
+                score.Clear();
+                nextQuestion = 0;
+                state = 2;
+            }
+
         }
     }
 
