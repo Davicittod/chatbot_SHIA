@@ -45,7 +45,7 @@ public class DialogManager : MonoBehaviour
      */
     public void PlayAudio(int a)
     {
-        /*
+        
         try
         {
             //Charge un fichier audio depuis le répertoire Resources
@@ -56,7 +56,7 @@ public class DialogManager : MonoBehaviour
         {
             Debug.LogException(e);
         }
-        */
+        
     }
 
     /*
