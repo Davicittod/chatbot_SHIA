@@ -9,7 +9,7 @@ class TeacherBot : Chatbot
     public static System.Random rand = new System.Random();
 
     private const int NUM_CURIOSITIES = 3;
-    private const int NUM_QUESTIONS = 21;
+    private const int NUM_QUESTIONS = 10;
 
     private int state = 0;
     private bool isNativeSpeaker = false;
@@ -21,6 +21,11 @@ class TeacherBot : Chatbot
 
     private bool bravo = false;
     private int lastQuestionAsked = 0;
+
+
+    //Parameters to modify
+    bool isLong = false;
+    bool hasFeelings = true;
 
     /*
     States of the chatbot:
@@ -62,13 +67,12 @@ class TeacherBot : Chatbot
     }  
 
     private int verifyLastQuestionAsked() {
-        int isLong = lastQuestionAsked%2;
         score.Add(bravo);
         if (bravo) {
-            if (isLong == 1) return lastQuestionAsked + 2;
+            if (isLong == true) return lastQuestionAsked + 2;
             else return 5;
         } else {
-            if (isLong == 1) return lastQuestionAsked + 1;
+            if (isLong == true) return lastQuestionAsked + 1;
             else return 4;
         }
     }
@@ -161,11 +165,6 @@ class TeacherBot : Chatbot
     private bool checkAnswer(int q, int a) {
         return q == a ;
     }
-
-    private int chooselastQuestionAsked(int q, int a) {
-        int is_long_answer = rand.Next()%2;
-        return q + 1 + is_long_answer;
-    }
     
     private double getGoal(int lastQuestion, int lastAnswer) {
         //If we are leaving
@@ -220,28 +219,31 @@ class TeacherBot : Chatbot
 
     public override void triggerAffectiveReaction(int lastQuestion, int lastAnswer) {
 
-        double goal = getGoal(lastQuestion, lastAnswer);
-        int cause = getCause(lastQuestion, lastAnswer);
-        int time = getTime(lastQuestion, lastAnswer);
-        int i = (int)(50+Math.Abs(goal)*50); // intensity
-        /* catégorie émotionnelle OCC */
-        if (time == PAST) {
-            if (goal>0)
-                // événement passé et désirable -> joie 0,5 secondes
-                playAnimation(new int[]{6,12}, new int[] {i,i}, .5f);
-            else if (goal<0)
-                if (cause==USER)
-                    // événement passé, indésirable et causé par autrui -> colère
-                    playAnimation(new int[]{4,5,7,23}, new int[] {i,i,i,i}, .5f);
-                else
-                    // événement passé, indésirable et causé par soi ou le monde -> tristesse
-                    playAnimation(new int[]{1,4,15}, new int[] {i,i,i}, .5f);
-            // pas de else : si goal=0, on ne déclenche pas de réaction affective
-        } else { // time == FUTURE
-            if (goal<0)
-                // événement futur et indésirable -> peur
-                playAnimation(new int[]{1,2,4,5,7,20,26}, new int[] {i,i,i,i,i,i,i}, .5f);
-            // pas de else : si goal>=0, on ne déclenche pas de réaction affective
+        if (hasFeelings == true) {
+            double goal = getGoal(lastQuestion, lastAnswer);
+            int cause = getCause(lastQuestion, lastAnswer);
+            int time = getTime(lastQuestion, lastAnswer);
+            int i = (int)(50+Math.Abs(goal)*50); // intensity
+            /* catégorie émotionnelle OCC */
+            if (time == PAST) {
+                if (goal>0)
+                    // événement passé et désirable -> joie 0,5 secondes
+                    playAnimation(new int[]{6,12}, new int[] {i,i}, .5f);
+                else if (goal<0)
+                    if (cause==USER)
+                        // événement passé, indésirable et causé par autrui -> colère
+                        playAnimation(new int[]{4,5,7,23}, new int[] {i,i,i,i}, .5f);
+                    else
+                        // événement passé, indésirable et causé par soi ou le monde -> tristesse
+                        playAnimation(new int[]{1,4,15}, new int[] {i,i,i}, .5f);
+                // pas de else : si goal=0, on ne déclenche pas de réaction affective
+            } else { // time == FUTURE
+                if (goal<0)
+                    // événement futur et indésirable -> peur
+                    playAnimation(new int[]{1,2,4,5,7,20,26}, new int[] {i,i,i,i,i,i,i}, .5f);
+                // pas de else : si goal>=0, on ne déclenche pas de réaction affective
+            }
         }
+        
     }
 }

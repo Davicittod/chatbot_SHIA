@@ -29,7 +29,7 @@ public class DialogManager : MonoBehaviour
         anim = this.gameObject.GetComponent<Animator>();
         //dialog = Chatbot.readDialogueFile<ExampleBot>("Assets/DialogElements/Dialogue/json/dialogue0.json", this);
         //dialog = Chatbot.readDialogueFile<Swahili>("Assets/DialogElements/Dialogue/json/swahili.json", this);
-        dialog = Chatbot.readDialogueFile<TeacherBot>("Assets/DialogElements/Dialogue/json/teacher.json", this);
+        dialog = Chatbot.readDialogueFile<TeacherBot>("Assets/DialogElements/Dialogue/json/teacher_final.json", this);
         InformationDisplay("");
         dialog.nextDialogue();
 
